@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async) {async=async!==false;var params={embedChatsParameters:chats instanceof Array?chats:[chats],needLoadCode:typeof Chatbro==='undefined'};var xhr=new XMLHttpRequest();xhr.withCredentials = true;xhr.onload=function(){eval(xhr.responseText)};xhr.onerror=function(){console.error('Chatbro loading error')};xhr.open('POST','//www.chatbro.com/embed_chats/',async);xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.send('parameters='+encodeURIComponent(JSON.stringify(params)))}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '2RmF'});</script>
 </head>
-<body>
+<body id="main">
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid text-center">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,9 +35,6 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="info">
-	
-</div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

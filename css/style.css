@@ -15,11 +15,12 @@ body {
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
-.info {
-	height: 100vh;
+#main {
 	background-image: url(../img/main.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
