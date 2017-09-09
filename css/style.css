@@ -34,11 +34,11 @@ a {
 }
 .video {
 	 position: relative;
-	 width: 50%;
 	 padding-bottom: 56.25%;
 	 padding-top: 30px;
 	 height: 0;
 	 overflow: hidden;
+	 text-align: center;
 }
 .video iframe {
 	 position: absolute;
@@ -63,6 +63,9 @@ a {
     background-color: #000;
     border: 1px solid #000;
     border-bottom: 1px solid #86281e;
+}
+.tab-content {
+	text-align: center;
 }
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
