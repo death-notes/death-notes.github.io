@@ -29,21 +29,6 @@ a {
 	background-color: #000;
 	
 }
-.video {
-	 position: relative;
-	 padding-bottom: 56.25%;
-	 padding-top: 30px;
-	 height: 0;
-	 overflow: hidden;
-	 text-align: center;
-}
-.video iframe {
-	 position: absolute;
-	 top:0;
-	 left: 0;
-	 width: 100%;
-	 height: 100%;
-}
 .nav-tabs {
     border-bottom: 1px solid #000;
 }
@@ -58,11 +43,31 @@ a {
     color: #86281e;
     cursor: default;
     background-color: #000;
-    border: 1px solid #000;
-    border-bottom: 1px solid #86281e;
+    border-left: 1px solid #86281e;
+    border-right: 1px solid #86281e;
+    border-top: 1px solid #000;
 }
 .tab-pane {
 	text-align: center;
+}
+.redline {
+	border: 0;
+	height: 1px;
+	margin: 0;
+	color: #86281e;
+	background: #86281e;
+}
+h2 {
+	color: #fff;
+}
+#watch>.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #000;
+    border-left: 1px solid #86281e;
+    border-right: 1px solid #86281e;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    color: #86281e;
 }
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
