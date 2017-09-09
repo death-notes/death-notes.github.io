@@ -26,10 +26,7 @@ a {
 	height: 100vh;
 }
 #watch {
-	background-image: url(../img/watch.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #000;
 	
 }
 .video {
@@ -64,9 +61,7 @@ a {
     border: 1px solid #000;
     border-bottom: 1px solid #86281e;
 }
-.tab-content {
-	text-align: center;
-}
+
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
 		width: 100%;
