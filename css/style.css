@@ -61,7 +61,9 @@ a {
     border: 1px solid #000;
     border-bottom: 1px solid #86281e;
 }
-
+.tab-pane {
+	text-align: center;
+}
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
 		width: 100%;
