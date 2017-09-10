@@ -59,6 +59,8 @@ a {
 }
 h2 {
 	color: #fff;
+	margin: 30px 0;
+	text-align: center;
 }
 #watch>.nav>li>a:hover {
     text-decoration: none;
