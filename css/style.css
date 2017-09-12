@@ -59,6 +59,9 @@ a {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #86281e;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
 .tab-pane {
 	text-align: center;
 }
