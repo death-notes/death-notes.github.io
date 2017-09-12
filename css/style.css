@@ -110,5 +110,9 @@ h3 {
 @media screen and (max-device-width: 767px) {
 	#main {
 		background-image: url(../img/main-mini.png);
+		background-attachment:fixed;
+    	background-position:center;
+		background-repeat: no-repeat;
+		height: 100vh;
 	}	
 }
