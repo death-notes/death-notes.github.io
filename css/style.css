@@ -50,6 +50,15 @@ a {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #86281e;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #86281e;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #86281e;
+}
 .tab-pane {
 	text-align: center;
 }
