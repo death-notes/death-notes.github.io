@@ -105,5 +105,8 @@ h3 {
 	}
 	.navbar-nav li {
 		width: 20%;
+	}
+	#main {
+		background-image: url(../img/main-mini.png);
 	}	
 }
