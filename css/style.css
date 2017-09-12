@@ -47,6 +47,9 @@ a {
     border-right: 1px solid #86281e;
     border-top: 1px solid #000;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #86281e;
+}
 .tab-pane {
 	text-align: center;
 }
