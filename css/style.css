@@ -62,6 +62,19 @@ h2 {
 	margin: 30px 0;
 	text-align: center;
 }
+h3 {
+	color: #fff;
+}
+.catalog img {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.catalog img:hover {
+	border: 1px solid #86281e;
+}
+.mangaLeft, .mangaRight {
+	display: inline-block;
+}
 #watch>.nav>li>a:hover {
     text-decoration: none;
     background-color: #000;
