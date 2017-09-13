@@ -44,10 +44,11 @@
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active"><a href="series/series1.html" id="link-1" aria-controls="section-1" role="tab" data-target="#section-1" data-toggle="tab">1</a></li>
         <li role="presentation"><a href="series/series2.html" id="link-2" aria-controls="section-2" role="tab" data-target="#section-2" data-toggle="tab">2</a></li>
-        <li role="presentation"><a href="series/series3.html" id="link-3" aria-controls="section-3" role="tab" data-target="#section-3" data-toggle="tab">Section 3</a></li>
-        <li role="presentation"><a href="series/series4.html" id="link-4" aria-controls="4" role="tab" data-target="#section-4" data-toggle="tab">Section 4</a></li>
+        <li role="presentation"><a href="series/series3.html" id="link-3" aria-controls="section-3" role="tab" data-target="#section-3" data-toggle="tab">3</a></li>
+        <li role="presentation"><a href="series/series4.html" id="link-4" aria-controls="4" role="tab" data-target="#section-4" data-toggle="tab">4</a></li>
       </ul>
-
+</div>
+<div class="container">
       <!-- Tab panes -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="section-1"></div>
@@ -62,7 +63,7 @@
 <script src="../js/jquery-3.1.1.min.js"></script>
 <script>
 $(document).ready(function(){
-  $.get('series1.html', function(data){
+  $.get('series/series1.html', function(data){
     $('#section-1').html(data);
   });
 });
