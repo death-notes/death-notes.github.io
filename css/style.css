@@ -7,6 +7,9 @@ body {
 a {
 	color: #fff;
 }
+p {
+	color: #fff;
+}
 .navbar {
 	border-radius: 0;
 	margin-bottom: 0;
@@ -98,6 +101,23 @@ h3 {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     color: #86281e;
+}
+.music p{
+	display: inline-block;
+	margin-top: 40px;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 0 5px 0;
+}
+.music a#download{
+	margin-left: 20px;
+	padding: 10px 20px;
+	border: 1px solid #86281e;
+	border-radius: 10px;
+}
+.music a#download:hover{
+	text-decoration: none;
+	color: #86281e;
 }
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
