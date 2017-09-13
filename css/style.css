@@ -93,7 +93,7 @@ h3 {
 .mangaLeft, .mangaRight {
 	display: inline-block;
 }
-#watch>.nav>li>a:hover {
+#watch>#tt>li>a:hover {
     text-decoration: none;
     background-color: #000;
     border-left: 1px solid #86281e;
