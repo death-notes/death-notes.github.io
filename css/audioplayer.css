@@ -7,7 +7,7 @@
 /* Desktop
 ================================================== */
 
-.player { position:relative; margin:0 auto; width:700px; }
+.player { position:relative; margin:0 auto; width:700px; font-family: 'Yanone Kaffeesatz', sans-serif;}
 .column { width:inherit; }
 
 
