@@ -91,7 +91,7 @@ p a,p a:visited { line-height:inherit; }
 ================================================== */
 
 /* Default / Desktop / Firefox */
-.player {color: #C8C7C8;}
+.player { color: #bbb;}
 audio { margin:0 15px 0 14px; width:670px; }
 #mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
 #audiowrap { background-color:#231F20; margin:0 auto; }
@@ -187,6 +187,7 @@ html[data-useragent*="OS 9"] .plSel,
 html[data-useragent*="OS 9"] .plSel:hover { background-color:#eee!important; }
 
 /* Chrome */
+html[data-useragent*="Chrome"] .player { color:#5a5a5a; }
 html[data-useragent*="Chrome"] body { color:#5a5a5a; }
 html[data-useragent*="Chrome"] audio { margin-left:9px; width:677px; }
 html[data-useragent*="Chrome"] #audiowrap { background-color:#fafafa; }
