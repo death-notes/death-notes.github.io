@@ -59,7 +59,6 @@ html,body {
 -webkit-text-size-adjust:100%;
 background-color:#111;
 color:#C8C7C8;
-font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight:300;
 padding:5px 0;
 }
@@ -82,7 +81,7 @@ p { font-size:18px; line-height:20px; margin:0 0 2px; }
 /* Links
 ================================================== */
 
-a,a:visited { color:#ddd; outline:0; text-decoration:underline; }
+a,a:visited { color:#ddd; outline:0; }
 a:hover,a:focus { color:#bbb; }
 p a,p a:visited { line-height:inherit; }
 
