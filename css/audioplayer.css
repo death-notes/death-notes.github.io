@@ -53,9 +53,6 @@ ul { list-style:none; }
 font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight:300;
 }
-#audio0 {
-	cursor: pointer;
-}
 
 
 
@@ -94,6 +91,7 @@ p a,p a:visited { line-height:inherit; }
 ================================================== */
 
 /* Default / Desktop / Firefox */
+.player {color: #C8C7C8;}
 audio { margin:0 15px 0 14px; width:670px; }
 #mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
 #audiowrap { background-color:#231F20; margin:0 auto; }
