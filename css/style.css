@@ -103,7 +103,7 @@ h3 {
     border-bottom: 1px solid #000;
     color: #86281e;
 }
-#playerbg {
+#bgimg {
 	background-image: url(../img/bg-player.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
