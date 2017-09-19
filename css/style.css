@@ -104,7 +104,11 @@ h3 {
     color: #86281e;
 }
 #bgimg {
-	background: url(../img/bg-player.jpg)  no-repeat fixed center center / cover;
+	background-image: url(../img/main.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
