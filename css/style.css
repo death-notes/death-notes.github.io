@@ -104,7 +104,7 @@ h3 {
     color: #86281e;
 }
 #bgimg {
-	background-image: url(../img/main.jpg);
+	background-image: url(../img/bg_player.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
