@@ -45,10 +45,19 @@ p {
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #86281e;
     cursor: default;
-    background-color: #000;
+    background-color: transparent;
     border-left: 1px solid #86281e;
     border-right: 1px solid #86281e;
-    border-top: 1px solid #000;
+    border-top: 0px;
+}
+.nav-tabs>li>a:hover {
+	color: #86281e;
+    cursor: default;
+    background-color: transparent;
+    border-left: 1px solid #86281e;
+    border-right: 1px solid #86281e;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #86281e;
