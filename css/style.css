@@ -146,6 +146,21 @@ h3 {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+.portrait {
+	width: 175px;
+	height: auto;
+	margin: 40px 0 15px 0; 
+}
+.name {
+	font-size: 20px;
+}
+#modal1Title, #modal1Desc{
+	color: #000;
+}
+@media only screen and (min-width: 641px) {}
+	.remodal {
+	    max-width: 900px;
+}
 @media screen and (min-device-width: 767px) {
 	.navbar-nav {
 		width: 100%;
