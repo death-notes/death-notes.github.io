@@ -157,6 +157,10 @@ h3 {
 #modal1Title, #modal1Desc{
 	color: #000;
 }
+.photogallery {
+	width: 23%;
+	height: auto;
+}
 @media only screen and (min-width: 641px) {}
 	.remodal {
 	    max-width: 900px;
