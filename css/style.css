@@ -160,6 +160,12 @@ h3 {
 	height: auto;
 	margin: 40px 0 15px 0; 
 }
+.portrait:hover {
+	border: 2px solid #86281e;
+}
+.remodal img:hover{
+	border: 1px solid #86281e;
+}
 .name {
 	font-size: 20px;
 }
