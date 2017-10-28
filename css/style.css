@@ -192,3 +192,12 @@ h3 {
 		height: 100vh;
 	}	
 }
+@media screen and (min-device-width: 1740px) {
+	#tt {
+		text-align: center;	
+	}
+	.nav-tabs>li {
+		float:none;
+		display: inline-block;
+	}	
+}
